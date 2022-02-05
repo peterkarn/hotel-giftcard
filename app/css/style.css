@@ -709,6 +709,7 @@ button {
 .filters {
   position: relative;
   padding: 20px 0;
+  border-top: 1px solid transparent;
   border-bottom: 1px solid var(--primary-fade);
   background-color: var(--light);
 }
@@ -905,6 +906,7 @@ button {
   animation: fadeIn 1s ease;
   -webkit-box-shadow: 0 7px 7px 0 rgba(0, 0, 0, 0.2);
   box-shadow: 0 7px 7px 0 rgba(0, 0, 0, 0.2);
+  border-top-color: var(--primary-fade);
 }
 
 .sticky .header {
