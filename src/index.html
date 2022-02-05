@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <link rel="preload" href="fonts/Boston-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Boston-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <title>NLTEST</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/date-time-picker-component.min.js"></script>
+  <script defer src="js/main.js"></script>
+</head>
+
+
+<body>
+  <div class="site-container">
+    <header class="header">
+      <div class="header__inner container">
+        <a class="header__logo" href="#">
+          <img width="136" height="43" src="img/logo.svg" alt="Hotel Giftcard">
+        </a>
+        <nav class="header__nav" data-menu>
+          <ul class="header__links">
+            <li>
+              <a href="#" tabindex="0" class="header__links-link">
+                Zakelijk
+              </a>
+            </li>
+            <li>
+              <a href="#" tabindex="0" class="header__links-link">
+                Saldo check
+              </a>
+            </li>
+          </ul>
+          <div class="header__btns">
+            <button class="btn">Geef een hotelgiftcard</button>
+            <button class="btn btn-accent">Boek een hotel</button>
+          </div>
+        </nav>
+
+        <button class="burger" aria-label="Open menu" data-burger>
+          <span class="burger__line"></span>
+        </button>
+      </div>
+    </header>
+    <main class="main">
+      <section class="offer">
+        <div class="conatiner">
+          <p class="offer__suptitle">
+            Barcelona
+          </p>
+          <h1 class="offer__title">
+            Het hart van Spanje
+          </h1>
+          <p class="offer__subtitle">
+            Het bruisende Barcelona. Met het geluid van castagnetten, de geur van gegrilde gamba’s en de fruitige smaak van sangria ben je er in gedachten al!
+          </p>
+        </div>
+      </section>
+      <div class="filters">
+        <div class="container">
+          <button class="filters__btn filters__btn_dates btn">vr. 19 okt - zo. 21 okt</button>
+          <button class="filters__btn filters__btn_guests btn">2 volwassenen - 0 kinderen</button>
+        </div>
+      </div>
+      <section class="hotels">
+        <h2 class="visually-hidden">Hotels</h2>
+        <ul class="hotels__list container">
+          <!-- list loaded from fake server -->
+        </ul>
+      </section>
+    </main>
+  </div>
+</body>
+
+</html>

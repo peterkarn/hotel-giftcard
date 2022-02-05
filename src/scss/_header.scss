@@ -1,0 +1,115 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 0;
+
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    margin-right: 20px;
+  }
+
+  &__nav {
+    display: flex;
+    align-items: center;
+
+    @media screen and (max-width: 767px) {
+      position: fixed;
+      z-index: 10;
+      top: 0;
+      left: 0;
+      visibility: hidden;
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+      padding: 60px 40px 40px;
+      opacity: 0;
+      background-color: rgba(0, 0, 0, .7);
+
+      backdrop-filter: blur(5px);
+    }
+
+    &.menu--active {
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+
+  &__btns {
+    display: flex;
+    align-items: center;
+
+    .btn:not(:last-child) {
+      margin: 0 40px 0 0;
+
+      @media screen and (max-width: 767px) {
+        margin: 0 0 40px 0;
+      }
+    }
+
+    .btn {
+      @media screen and (max-width: 767px) {
+        width: 100%;
+      }
+    }
+
+    @media screen and (max-width: 767px) {
+      flex-direction: column;
+    }
+  }
+
+  &__links {
+    display: flex;
+    align-items: center;
+    margin: 0 40px 0 0;
+
+    li:not(:last-child) {
+      margin: 0 40px 0 0;
+
+      @media screen and (max-width: 767px) {
+        margin: 0 0 40px 0;
+      }
+    }
+
+    &-link {
+      font-weight: 600;
+      transition: color .3s;
+      color: #161616;
+
+      &:hover {
+        color: var(--primary);
+      }
+
+
+      @media screen and (max-width: 767px) {
+        color: #fff;
+      }
+    }
+
+    @media screen and (max-width: 767px) {
+      flex-direction: column;
+      margin: 0 0 40px 0;
+    }
+  }
+}
+
+.pink-btn {
+  background-color: #e160e4;
+}
+
+.burger {
+  z-index: 1500;
+  display: none;
+
+  @media screen and (max-width: 767px) {
+    display: block;
+
+    @include burger;
+  }
+}
