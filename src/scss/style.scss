@@ -87,28 +87,24 @@
     }
   }
 
-  &__btn_dates::before {
+  &__btn_dates::before,
+  &__btn_guests::before {
     content: '';
     position: absolute;
-    top: 13px;
+    top: 10px;
     left: 10px;
     display: block;
     width: 16px;
     height: 16px;
-    background-image: url('../img/icons/calendar.svg');
     background-repeat: no-repeat;
   }
 
   &__btn_guests::before {
-    content: '';
-    position: absolute;
-    top: 13px;
-    left: 10px;
-    display: block;
-    width: 16px;
-    height: 16px;
     background-image: url('../img/icons/human.svg');
-    background-repeat: no-repeat;
+  }
+
+  &__btn_dates::before {
+    background-image: url('../img/icons/calendar.svg');
   }
 }
 
