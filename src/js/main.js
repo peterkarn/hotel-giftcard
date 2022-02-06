@@ -21,10 +21,8 @@ function checkScroll() {
   const filtersBlockHeight = document.querySelector(".filters").offsetHeight;
   if (scrolled > offerHeight) {
     document.body.classList.add("sticky");
-    // document.body.style.paddingTop = `${filtersBlockHeight}px`
   } else {
     document.body.classList.remove("sticky");
-    // document.body.style.paddingTop = "";
   }
 }
 
@@ -185,4 +183,3 @@ const render = () => {
   }
 }
 render();
-

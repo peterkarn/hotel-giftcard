@@ -1127,5 +1127,10 @@ button {
   .offer {
     background-image: url(../img/hero-bg-mobile.jpg);
   }
+
+  .hotels__list {
+    -ms-grid-columns: auto;
+    grid-template-columns: auto;
+  }
 }
 /*# sourceMappingURL=style.css.map */
