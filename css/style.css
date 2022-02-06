@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 @font-face {
   font-family: "Boston";
   font-weight: 600;
@@ -409,6 +411,9 @@ template {
   --light: #fff;
   --text-color: #1c1c1c;
   --radius: 4px;
+  --star-size: 12px;
+  --star-color: var(--light);
+  --star-background: #FFC36D;
 }
 
 html {
@@ -582,6 +587,31 @@ button {
 
 .btn-accent:hover {
   background-color: var(--accent-hover);
+}
+
+.star-rating {
+  padding: 6px 0;
+  --percent: calc(var(--rating) / 5 * 100%);
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: var(--star-size);
+  font-family: Times;
+  line-height: 1;
+}
+
+.star-rating::before {
+  content: "★★★★★";
+  letter-spacing: 3px;
+  background: -webkit-gradient(linear, left top, right top, from(var(--star-background)), to(var(--star-color)));
+  background: -o-linear-gradient(left, var(--star-background) var(--percent), var(--star-color) var(--percent));
+  background: linear-gradient(90deg, var(--star-background) var(--percent), var(--star-color) var(--percent));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .header {
