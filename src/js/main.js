@@ -1,8 +1,5 @@
 import './_functions';
 
-
-alert('Cards list will be loaded from fake server json stored in main js file named "***jsonFromServer***"')
-
 //sticky func
 
 function throttle(fn, wait) {

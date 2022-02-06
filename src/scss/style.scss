@@ -61,6 +61,7 @@
 
     @media screen and (max-width: $small) {
       grid-template-columns: auto;
+      gap: 10px;
     }
   }
 
@@ -71,6 +72,11 @@
     border: 1px solid transparent;
     border-radius: var(--radius);
     background-color: #f5f6fd;
+
+    @media screen and (max-width: $small) {
+      padding-top: 8px;
+      padding-bottom: 8px;
+    }
 
     &:hover {
       color: var(--light);
@@ -125,8 +131,8 @@
 }
 
 .card {
+  @include adaptiv-value('font-size', 17, 15, 1);
   display: flex;
-  font-size: 17px;
   flex-direction: column;
   height: 100%;
 
@@ -188,7 +194,7 @@
   }
 
   &__title {
-    font-size: 22px;
+    @include adaptiv-value('font-size', 22, 18, 1);
     font-weight: 600;
     margin-bottom: 5px;
   }
@@ -234,6 +240,7 @@
     @media screen and (max-width: $medium) {
       top: 80px;
       transform: none;
+      padding: 10px 0;
     }
   }
 
@@ -250,11 +257,14 @@
 .dis-scroll {
   overflow: hidden;
 
-
   .filters {
     @media screen and (max-width: $medium) {
       display: none;
     }
+  }
+
+  .burger--active {
+    color: var(--light);
   }
 }
 
