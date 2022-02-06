@@ -9,6 +9,9 @@
   --light: #fff;
   --text-color: #1c1c1c;
   --radius: 4px;
+  --star-size: 12px;
+  --star-color: var(--light);
+  --star-background: #FFC36D;
 }
 
 html {
@@ -167,5 +170,24 @@ button {
 
   &:hover {
     background-color: var(--accent-hover);
+  }
+}
+
+.star-rating {
+  padding: 6px 0;
+  --percent: calc(var(--rating) / 5 * 100%);
+  display: inline-flex;
+  align-items: center;
+  font-size: var(--star-size);
+  font-family: Times; // make sure ★ appears correctly
+  line-height: 1;
+
+  &::before {
+    content: '★★★★★';
+    letter-spacing: 3px;
+    background: linear-gradient(90deg, var(--star-background) var(--percent), var(--star-color) var(--percent));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 }

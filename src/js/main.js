@@ -34,6 +34,7 @@ const jsonFromServer = {
       jpg: 'img/image_1.jpg',
       title: 'WestCord Fashion Hotel',
       city: 'Barcelona',
+      rating: '3.5',
       description: 'Description could be small...',
       price: '129'
     },
@@ -43,6 +44,7 @@ const jsonFromServer = {
       jpg: 'img/image_2.jpg',
       title: 'WestCord Fashion Hotel',
       city: 'Barcelona',
+      rating: '2.0',
       description: ' Or very very long ..... Het trendy WestCord Fashion Hotel Amsterdam ligt tegenover het World, en het...Lorem ipsum dolHet trendy WestCord Fashion Hotel Amsterdam ligt tegenover het World, en het...Lorem ipsum dolHet trendy WestCord Fashion Hotel Amsterdam ligt tegenover het World, en het...Lorem ipsum dolHet trendy WestCord Fashion Hotel Amsterdam ligt tegenover het World, en het...Lorem ipsum dolor sit amet, consectetur adipisicing elit.Laboriosam, accusamus!',
       price: '229'
     },
@@ -52,6 +54,7 @@ const jsonFromServer = {
       jpg: 'img/image_3.jpg',
       title: 'WestCord Fashion Hotel',
       city: 'Barcelona',
+      rating: '5.0',
       description: 'Or even a few words bla bla bla bla bla WestCord Fashion Hotel ...',
       price: '229'
     },
@@ -61,6 +64,7 @@ const jsonFromServer = {
       jpg: 'img/image_4.jpg',
       title: 'WestCord Fashion Hotel',
       city: 'Barcelona',
+      rating: '4.5',
       description: 'It won`t break the markup',
       price: '229'
     },
@@ -70,6 +74,7 @@ const jsonFromServer = {
       jpg: 'img/image_5.jpg',
       title: 'WestCord Fashion Hotel',
       city: 'Barcelona',
+      rating: '4',
       description: 'Het trendy WestCord Fashion Hotel Amsterdam ligt tegenover het World, en het...Lorem ipsum dolHet trendy WestCord Fashion Hotel Amsterdam ligt tegenover het World, en het...Lorem ipsum dolHet trendy WestCord Fashion Hotel Amsterdam ligt tegenover het World, en het...Lorem ipsum dolHet trendy WestCord Fashion Hotel Amsterdam ligt tegenover het World, en het...Lorem ipsum dolor sit amet, consectetur adipisicing elit.Laboriosam, accusamus!',
       price: '229'
     },
@@ -79,6 +84,7 @@ const jsonFromServer = {
       jpg: 'img/image_6.jpg',
       title: 'WestCord Fashion Hotel',
       city: 'Barcelona',
+      rating: '5',
       description: 'Het trendy WestCord Fashion Hotel Amsterdam ligt tegenover het World, en het...Lorem ipsum dolHet trendy WestCord Fashion Hotel Amsterdam ligt tegenover het World, en het...Lorem ipsum dolHet trendy WestCord Fashion Hotel Amsterdam ligt tegenover het World, en het...Lorem ipsum dolHet trendy WestCord Fashion Hotel Amsterdam ligt tegenover het World, en het...Lorem ipsum dolor sit amet, consectetur adipisicing elit.Laboriosam, accusamus!',
       price: '229'
     },
@@ -88,6 +94,7 @@ const jsonFromServer = {
       jpg: 'img/image_7.jpg',
       title: 'WestCord Fashion Hotel',
       city: 'Barcelona',
+      rating: '3.5',
       description: 'Het trendy WestCord Fashion Hotel Amsterdam ligt tegenover het World, en het...Lorem ipsum dolHet trendy WestCord Fashion Hotel Amsterdam ligt tegenover het World, en het...Lorem ipsum dolHet trendy WestCord Fashion Hotel Amsterdam ligt tegenover het World, en het...Lorem ipsum dolHet trendy WestCord Fashion Hotel Amsterdam ligt tegenover het World, en het...Lorem ipsum dolor sit amet, consectetur adipisicing elit.Laboriosam, accusamus!',
       price: '229'
     },
@@ -97,6 +104,7 @@ const jsonFromServer = {
       jpg: 'img/image_8.jpg',
       title: 'WestCord Fashion Hotel',
       city: 'Barcelona',
+      rating: '3.3',
       description: 'Het trendy WestCord Fashion Hotel Amsterdam ligt tegenover het World, en het...Lorem ipsum dolHet trendy WestCord Fashion Hotel Amsterdam ligt tegenover het World, en het...Lorem ipsum dolHet trendy WestCord Fashion Hotel Amsterdam ligt tegenover het World, en het...Lorem ipsum dolHet trendy WestCord Fashion Hotel Amsterdam ligt tegenover het World, en het...Lorem ipsum dolor sit amet, consectetur adipisicing elit.Laboriosam, accusamus!',
       price: '229'
     },
@@ -106,15 +114,18 @@ const jsonFromServer = {
       jpg: 'img/image_9.jpg',
       title: 'WestCord Fashion Hotel',
       city: 'Barcelona',
+      rating: '3.2',
       description: 'Het trendy WestCord Fashion Hotel Amsterdam ligt tegenover het World, en het...Lorem ipsum dolHet trendy WestCord Fashion Hotel Amsterdam ligt tegenover het World, en het...Lorem ipsum dolHet trendy WestCord Fashion Hotel Amsterdam ligt tegenover het World, en het...Lorem ipsum dolHet trendy WestCord Fashion Hotel Amsterdam ligt tegenover het World, en het...Lorem ipsum dolor sit amet, consectetur adipisicing elit.Laboriosam, accusamus!',
       price: '229'
     },
     {
       id: 10,
+
       webp: 'img/image_10.webp',
       jpg: 'img/image_10.jpg',
       title: 'WestCord Fashion Hotel',
       city: 'Barcelona',
+      rating: '4',
       description: 'Het trendy WestCord Fashion Hotel Amsterdam ligt tegenover het World, en het...Lorem ipsum dolHet trendy WestCord Fashion Hotel Amsterdam ligt tegenover het World, en het...Lorem ipsum dolHet trendy WestCord Fashion Hotel Amsterdam ligt tegenover het World, en het...Lorem ipsum dolHet trendy WestCord Fashion Hotel Amsterdam ligt tegenover het World, en het...Lorem ipsum dolor sit amet, consectetur adipisicing elit.Laboriosam, accusamus!',
       price: '229'
     },
@@ -124,6 +135,7 @@ const jsonFromServer = {
       jpg: 'img/image_11.jpg',
       title: 'WestCord Fashion Hotel',
       city: 'Barcelona',
+      rating: '4',
       description: 'Het trendy WestCord Fashion Hotel Amsterdam ligt tegenover het World, en het...Lorem ipsum dolHet trendy WestCord Fashion Hotel Amsterdam ligt tegenover het World, en het...Lorem ipsum dolHet trendy WestCord Fashion Hotel Amsterdam ligt tegenover het World, en het...Lorem ipsum dolHet trendy WestCord Fashion Hotel Amsterdam ligt tegenover het World, en het...Lorem ipsum dolor sit amet, consectetur adipisicing elit.Laboriosam, accusamus!',
       price: '229'
     },
@@ -133,6 +145,7 @@ const jsonFromServer = {
       jpg: 'img/image_12.jpg',
       title: 'WestCord Fashion Hotel',
       city: 'Barcelona',
+      rating: '4',
       description: 'Het trendy WestCord Fashion Hotel Amsterdam ligt tegenover het World, en het...Lorem ipsum dolHet trendy WestCord Fashion Hotel Amsterdam ligt tegenover het World, en het...Lorem ipsum dolHet trendy WestCord Fashion Hotel Amsterdam ligt tegenover het World, en het...Lorem ipsum dolHet trendy WestCord Fashion Hotel Amsterdam ligt tegenover het World, en het...Lorem ipsum dolor sit amet, consectetur adipisicing elit.Laboriosam, accusamus!',
       price: '229'
     },
@@ -142,6 +155,7 @@ const jsonFromServer = {
       jpg: 'img/image_13.jpg',
       title: 'WestCord Fashion Hotel',
       city: 'Barcelona',
+      rating: '4',
       description: 'Het trendy WestCord Fashion Hotel Amsterdam ligt tegenover het World, en het...Lorem ipsum dolHet trendy WestCord Fashion Hotel Amsterdam ligt tegenover het World, en het...Lorem ipsum dolHet trendy WestCord Fashion Hotel Amsterdam ligt tegenover het World, en het...Lorem ipsum dolHet trendy WestCord Fashion Hotel Amsterdam ligt tegenover het World, en het...Lorem ipsum dolor sit amet, consectetur adipisicing elit.Laboriosam, accusamus!',
       price: '229'
     },
@@ -151,6 +165,7 @@ const jsonFromServer = {
       jpg: 'img/image_14.jpg',
       title: 'WestCord Fashion Hotel',
       city: 'Barcelona',
+      rating: '4',
       description: 'Het trendy WestCord Fashion Hotel Amsterdam ligt tegenover het World, en het...Lorem ipsum dolHet trendy WestCord Fashion Hotel Amsterdam ligt tegenover het World, en het...Lorem ipsum dolHet trendy WestCord Fashion Hotel Amsterdam ligt tegenover het World, en het...Lorem ipsum dolHet trendy WestCord Fashion Hotel Amsterdam ligt tegenover het World, en het...Lorem ipsum dolor sit amet, consectetur adipisicing elit.Laboriosam, accusamus!',
       price: '229'
     },
@@ -170,6 +185,7 @@ const render = () => {
             </picture>
           </a>
           <a href="#" target="_blank" class="card__city">${hotel.city}</a>
+          <div class = "star-rating" style = "--rating: ${hotel.rating};"> </div>
           <a href="#" target="_blank" class = "card__title">${hotel.title}</a>
           <p class="card__description">${hotel.description}</p>
           <a href="#" target="_blank" class="card__price"> vanaf €<span>${hotel.price}</span> per nacht</a>
