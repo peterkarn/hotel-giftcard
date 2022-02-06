@@ -185,8 +185,8 @@ const render = () => {
             </picture>
           </a>
           <a href="#" target="_blank" class="card__city">${hotel.city}</a>
-          <div class = "star-rating" style = "--rating: ${hotel.rating};"> </div>
           <a href="#" target="_blank" class = "card__title">${hotel.title}</a>
+           <div class = "star-rating" style = "--rating: ${hotel.rating};"> </div>
           <p class="card__description">${hotel.description}</p>
           <a href="#" target="_blank" class="card__price"> vanaf €<span>${hotel.price}</span> per nacht</a>
         </article>
