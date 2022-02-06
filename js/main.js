@@ -284,8 +284,7 @@ function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o =
 
 function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
 
-
-alert('Cards list will be loaded from fake server json stored in main js file named "***jsonFromServer***"'); //sticky func
+ //sticky func
 
 function throttle(fn, wait) {
   var time = Date.now();
