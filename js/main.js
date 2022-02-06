@@ -303,9 +303,9 @@ function checkScroll() {
   var filtersBlockHeight = document.querySelector(".filters").offsetHeight;
 
   if (scrolled > offerHeight) {
-    document.body.classList.add("sticky"); // document.body.style.paddingTop = `${filtersBlockHeight}px`
+    document.body.classList.add("sticky");
   } else {
-    document.body.classList.remove("sticky"); // document.body.style.paddingTop = "";
+    document.body.classList.remove("sticky");
   }
 }
 
